@@ -1,0 +1,100 @@
+Test Social Media Server APIs
+These sample API requests and responses are intended only as an example. Using the exact same request may not result in a matching response
+Get Users API
+This is an API to obtain the users registered on the social media application
+Request (GET)
+Route with no pre-filled values
+http://20.244.56.144/test/users
+Response
+"users":
+*1":
+MOohn Doe"
+10”：
+'"Helen Moore"
+"'11": "Ivy Taylor"
+"12": "Jack Anderson"
+#13*: *Kathy Thomas"
+M14%: "Liam Dackson"
+115":
+"Mona Harris"
+116":
+"Nathan clark"
+1アジュ
+"Olivia Lewis"
+M48"
+"Paul Walker*
+"Quinn Scott"
+
+"2": "Jane Doe",
+"20": "Rachel Young"
+"3":
+"Alice Smith",
+"4" :
+"Bob Johnson"
+"5":
+"Charlie Brown",
+"6": "Diana White",
+"7" :
+"Edward Davis"
+"8" :
+"Fiona Miller"
+"9": "George Wilson"
+Get Posts API
+This is an API to obtain the posts authored by a particular user on the social media application
+Request (GET)
+Route with no pre-filled values
+http://20.244.56.144/test/users/:userid/posts
+Route for John Doe's posts
+http://20.244.56.144/test/users/1/posts
+Response:
+"posts": [
+Mid": 246,
+"userid": 1,
+"content": "Post about ant"
+"id": 161,
+*userid": 1,
+
+#content": "Post about elephant"
+"id": 150,
+"userid": 1,
+"content": "Post about ocean"
+"id": 370,
+"userid":
+1,
+"content": "Post about monkey"
+"id": 344,
+"userid": 1,
+"content": "Post about ocean"
+"id": 952,
+"userid":
+1,
+"content": "Post about zebra"
+"id*: 647,
+"userid": 1,
+"content": *Post about igloo"
+"id": 421,
+"userid!
+"content": "Post about house"
+id: 890,
+"userid": 1.
+"content": "Post about bat"
+mid*- 461,
+
+"userid": 1,
+"content": "Post about umbrella"
++
+Get Comments API
+This is an API to obtain the comments authored by other users on a post on the social media application
+Request (GET)
+Route with no pre-filled values
+http://20.244.56.144/test/posts/:postid/comments
+Route for John Doe's posts
+http://20.244.56.144/test/posts/150/ comments
+Response:
+"comments": [
+"id*: 3893,
+"postid": 150,
+"content": "Old comment"
+Mid": 4791,
+"postid": 150,
+content": *Boring comment"
